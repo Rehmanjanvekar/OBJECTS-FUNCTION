@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arrow function</title>
+<style type="text/css">
+table,th,tr,thead,-dar
+{
+border: 2px solid #06F;
+font-size: 20px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">name</th>
+      <th scope="col">email</th>
+      <th scope="col">age</th>
+      <th scope="col">contact</th>
+      <th scope="col">address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td id="demo"></td>
+      <td id="demo1"></td>
+      <td id="demo2"></td>
+      <td id="demo3"></td>
+      <td id="demo4"></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td id="dem"></td>
+      <td id="dem1"></td>
+      <td id="dem2"></td>
+      <td id="dem3"></td>
+      <td id="dem4"></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td id="de"></td>
+      <td id="de1"></td>
+      <td id="de2"></td>
+      <td id="de3"></td>
+      <td id="de4"></td>
+      
+    </tr>
+     <tr>
+      <th scope="row">3</th>
+      <td id="no"></td>
+      <td id="no1"></td>
+      <td id="no2"></td>
+      <td id="no3"></td>
+      <td id="no4"></td>
+      
+    </tr>
+     <tr>
+      <th scope="row">3</th>
+      <td id="n"></td>
+      <td id="n1"></td>
+      <td id="n2"></td>
+      <td id="n3"></td>
+      <td id="n4"></td>
+      
+    </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript">
+class student
+{
+constructor(name,email,age,contact,address)
+{
+this.name= name;
+this.email= email;
+this.age= age;
+this.contact= contact;
+this.address= address;
+}
+}
+const stud = new student( "rehman janvekar" , "rehmanjanvekar@gmail.com" , "23" , "8123832159", "bijapur");
+document.getElementById("demo").innerHTML = stud.name;
+document.getElementById("demo1").innerHTML = stud.email;
+document.getElementById("demo2").innerHTML = stud.age;
+document.getElementById("demo3").innerHTML = stud.contact;
+document.getElementById("demo4").innerHTML = stud.address;
+
+const stud1 = new student( "airaf" , "airaf@gmail.com" , "23" , "8123832158", "bijapur");
+document.getElementById("dem").innerHTML = stud1.name;
+document.getElementById("dem1").innerHTML = stud1.email;
+document.getElementById("dem2").innerHTML = stud1.age;
+document.getElementById("dem3").innerHTML = stud1.contact;
+document.getElementById("dem4").innerHTML = stud1.address;
+
+
+const stud2 = new student( "xabi" , "xabi@gmail.com" , "24" , "8123814357", "bijapur");
+document.getElementById("de").innerHTML = stud2.name;
+document.getElementById("de1").innerHTML = stud2.email;
+document.getElementById("de2").innerHTML = stud2.age;
+document.getElementById("de3").innerHTML = stud2.contact;
+document.getElementById("de4").innerHTML = stud2.address;
+
+const stud3 = new student( "zaki" , "zakir@gmail.com" , "25" , "8123814352", "bijapur");
+document.getElementById("no").innerHTML = stud3.name;
+document.getElementById("no1").innerHTML = stud3.email;
+document.getElementById("no2").innerHTML = stud3.age;
+document.getElementById("no3").innerHTML = stud3.contact;
+document.getElementById("no4").innerHTML = stud3.address;
+
+
+const stud4 = new student( "fahad" , "fahad@gmail.com" , "26" , "8123814351", "bijapur");
+document.getElementById("n").innerHTML = stud4.name;
+document.getElementById("n1").innerHTML = stud4.email;
+document.getElementById("n2").innerHTML = stud4.age;
+document.getElementById("n3").innerHTML = stud4.contact;
+document.getElementById("n4").innerHTML = stud4.address;
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
